@@ -1,5 +1,8 @@
 # Copied from https://docs.python.org/3/library/itertools.html
 
+from itertools import *
+
+
 def take(n, iterable):
     "Return first n items of the iterable as a list"
     return list(islice(iterable, n))
